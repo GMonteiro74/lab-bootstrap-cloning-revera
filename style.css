@@ -1,0 +1,185 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none
+}
+
+html {
+    font-size: 14px;
+}
+
+/* .container-fluid {
+    width: 100vw;
+    margin: auto 0;
+} */
+
+.navbar-brand {
+    padding-right: 25%;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.bg-light {
+    --bs-bg-opacity: 0;
+}
+
+.carousel-inner img {
+    filter: grayscale(100%)
+}
+
+.light-grey {
+    color: rgba(255, 255, 255, 0.979);
+}
+
+.btnoverlay {
+    text-decoration: none;
+    padding: 15px 30px;
+    border: 2px solid rgba(255, 255, 255, 0.979);
+    color: white;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: row;
+    width: 75vw;
+    gap: 2%;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    background-color: #F04732;
+    height: 15%;
+    margin: auto 0;
+    width: 3%;
+    opacity: 1;
+}
+
+main {
+    margin-bottom: 60px;
+}
+
+footer {
+    padding: 50px 0;
+    border-top: 2px solid #F04732;
+}
+
+img {
+    width: 100%;
+
+}
+
+h1 {
+    font-size: 1.4rem;
+}
+
+h2 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: rgb(177, 177, 177);
+}
+
+.posted {
+    font-size: 0.8rem;
+}
+
+.articles-title {
+    font-size: 1.2rem;
+}
+
+.titles {
+    padding: 50px 0;
+}
+
+.text-center p {
+    text-align: center;
+}
+
+p {
+    font-weight: 300;
+}
+
+.red-bg {
+    background-color: #F04732;
+    color: rgb(231, 231, 231);
+    justify-content: space-evenly;
+}
+
+.red-bg .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 2%;
+
+}
+
+i {
+    width: 40px;
+    height: 40px;
+}
+
+.col-md-4 {
+    width: 28%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 50px 0;
+    text-align: center;
+}
+
+
+.active, span {
+    color: #F04732 !important
+}
+
+.carousel {
+    margin: 0 auto;
+}
+
+.row {
+    justify-content: space-between;
+}
+
+.row > * {
+    padding: 0;
+}
+
+.col-md-3 {
+    width: 23%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.row-gap {
+    gap: 2%;
+    justify-content: space-between;
+}
+
+.grey-bg {
+    background-color: rgb(29, 29, 29);
+    color: rgb(177, 177, 177);
+}
+
+.black {
+    background-color: rgb(20, 20, 20);
+}
+
+.dotted-lines {
+    border-bottom: 1px dotted grey;
+    color: rgb(177, 177, 177);
+}
+
+.text-above {
+    position: absolute;
+    text-align: center;
+    z-index: 15;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 40%;
+    width: 50vw;
+    left: 25%;
+    color: white;
+    
+}
